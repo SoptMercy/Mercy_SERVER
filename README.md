@@ -1,5 +1,5 @@
 <h1>ERD</h1>
-![mercy_erd](https://user-images.githubusercontent.com/52529595/83955374-3322df80-a88d-11ea-9365-c9cf7d00d9da.png)
+<img width="716" alt="mercy_api" src="https://user-images.githubusercontent.com/52529595/83955374-3322df80-a88d-11ea-9365-c9cf7d00d9da.png">
 
 <h1>API 명세서</h1>
 <img width="716" alt="mercy_api" src="https://user-images.githubusercontent.com/52529595/83955325-af68f300-a88c-11ea-86a2-80ed798d634f.PNG">
