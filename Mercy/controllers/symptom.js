@@ -9,10 +9,6 @@ const controllers={
         const result=await symptomModel.selectDrug(symptomIdx);
         var temp=[];
         var temp2={
-            "symptomName":result[0].symptomName
-        };
-        temp.push(temp2);
-        temp2={
             "name":result[0].drugName1,
             "image":result[0].drugImage1,
             "price":result[0].drugPrice1,
