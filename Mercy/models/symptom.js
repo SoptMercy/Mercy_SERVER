@@ -5,12 +5,7 @@ const models={
     selectDrug: async(symptomIdx)=>{
         const query=`SELECT * FROM ${table} where symptomIdx=${symptomIdx};`;
             try{
-                const result=await pool.queryParam(query);
-                if(result.length===0){
-                    return true;//fail
-                }else{
-                    return result;
-                }
+                return await pool.queryParam(query);
             }catch(err){
                 throw err;
             }
