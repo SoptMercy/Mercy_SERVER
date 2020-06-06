@@ -33,5 +33,8 @@ module.exports = {
     EXPIRED_TOKEN: '토큰 값이 만료되었습니다.',
     INVALID_TOKEN: '유효하지 않은 토큰값입니다.',
     AUTH_SUCCESS: '인증에 성공했습니다.',
-    ISSUE_SUCCESS: '새로운 토큰이 생성되었습니다.'
+    ISSUE_SUCCESS: '새로운 토큰이 생성되었습니다.',
+
+    NO_DRUG:'해당 증상에 대한 약이 존재하지 않습니다.',
+    OK_DRUG:'해당 증상에 대한 약을 추천해드립니다!'
 };
